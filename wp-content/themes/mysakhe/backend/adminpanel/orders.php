@@ -61,7 +61,7 @@ $employees = $controller->get_employees(); ?>
             <div class="well">
                  <div class="row">
                      <div class="form-group col-xs-12">
-                        <label>Serviceasdasd</label>
+                        <label>Service</label>
                         <input placeholder="Enter text" class="form-control" name="Service" disabled>
                      </div>
                  </div>
