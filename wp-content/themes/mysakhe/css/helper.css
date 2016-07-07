@@ -1,0 +1,89 @@
+/* 
+ ==========================================================================
+   Helper Classes
+ ========================================================================== 
+*/
+
+/*basics*/
+a img { border:none; max-width: 100%;  height: auto; }
+img, a { border:none; outline:none !important; }
+ol, ul{ margin:auto; list-style:none; padding:0; }
+h1, h1 span, h2, h2 span, h3, h3 span, h4, h4 span, h5, h5 span{ line-height:100%!important; margin:0; font-weight:normal; }
+a { text-decoration:none; font-weight:normal; color:#fff; }
+
+/*
+*  Clearfix: contain floats
+*/
+.clearfix { clear:both;  overflow:hidden;  }
+.comingsoon { color:#FF0000;  font-weight:bold;  font-style:italic; margin:20px 0; display:block; }
+
+/*
+* Column count
+*/
+.col-2{ -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
+.col-3{ -webkit-column-count: 3; -moz-column-count: 3; column-count: 3; }
+
+/*
+* Float:	
+*/
+.f-left { float: left; }
+.f-right { float: right; }
+.f-none { float: none; }
+
+/*
+* Text Alignment:			 
+*/
+.content .align-left { text-align: left; }
+.content .align-right { text-align: right; }
+.content .align-center { text-align: center; }
+.content .align-justify { text-align: justify; }
+
+/*
+* Image Manipulation
+*/
+.thumb-left{ float: left; margin:10px 20px; max-width:100%; }
+.thumb-right{ float: right; margin:10px 20px; max-width:100%; }
+.thumb-center{ display: block; margin:10px auto 0; max-width:100%; }
+.thumb{ padding:5px; background:#fff; box-shadow:0 0 5px #5F5F5F; }
+/*
+* Resources
+*/
+.resources { font-size:14px;  margin-top: 20px; }
+.resources a { color: #F26C09;  text-decoration:none;  display:block; font-weight:bold; }
+.resources a:hover { color:#D12727; padding-left:1px; }
+.resources ul{ display:initial; }
+.resources ul,.resources li { list-style-type:none;  margin:0;  padding:0; }
+.resources ul li{ display: block;  margin:0 0 8px 0 !important;  padding: 12px !important;  background: #FAFDFE;  border-width: 1px 1px 2px;  border-style: solid;  border-color: #94A9C9;  border-image: none;  list-style-image: none !important; }
+.resources ul li span { font-size:11px;  color:#666666;  letter-spacing:1px; display:block; }
+.resources li:before{ content:'' !important; }
+
+/*
+* FAQ
+*/
+#faq-content{ margin-top: 25px; }
+#faq-content .thetitle{ width: 96%; cursor: pointer; line-height: 23px; margin: 2px 0; padding: 10px; }
+#faq-content .thecontent{ width: 96%; padding:10px; background: #f9f1db; transition:none; }
+#faq-content .openlanguage{ color: #FFF; background: #ff8000;  font-weight:bold; }
+#faq-content .closedlanguage{ color: #fff; background: #1962a9;  font-weight: bold; }
+#faq-content .comp2{ color: #ffee00; }
+
+/*
+* For IE
+*/
+.lt-ie8 .dang-ie{ width: 100%; height: 100%; position: fixed; background-color: #00abdd; }
+.message{ text-align: center; color: #fff; font-size: 20px; position: absolute; top: 20%; left: 0; right: 0; }
+.inner-message{ position: relative; top: -20%; left: 0; right: 0; text-align: center; margin: auto; }
+.inner-message img{ position: relative; left: 3em; }
+.inner-message a.download{ display: block; width: 300px; padding: 10px; color: #fff; margin: 2em auto; border: 1px solid #fff; }
+.terms{ color: #fff; font-size: 13px; padding: 20px; position: absolute; right: 0; bottom: 0; }
+.terms a{ color: #fff; font-weight: bold; }
+.lt-ie8 .protect-me{ display: none; }
+
+/*
+* Search
+*/
+.search_results div.page, .search_results div.post{ padding: 5px 15px;  border-bottom:2px solid #000;  background:#ffffe1;  margin:10px 0;  color:#000;  }
+.search_results h2{ margin: 10px 0; }
+.search_results h2 a{ font-size:20px;  text-decoration:none !important; }
+.search_results div.entry-meta{  font-style:italic; }
+.search_results a:hover{  text-decoration:none; }

@@ -1,0 +1,98 @@
+@media only screen 
+and (max-width :960px) { 
+	html, body{ 
+		-webkit-touch-callout: none; 
+		-webkit-user-select: none;  /* Webkit */
+		-moz-user-select: none;     /* Firefox */
+		-ms-user-select: none;      /* IE 10  */
+	 }
+	.f-left, .f-right{ float:none; }
+	.container{ height:auto!important; padding:0!important; margin:auto!important; display:block!important; }
+	
+	.slider .box_skitter,
+	.mid-bot-area .mbox .p-head:before{ display:none; }
+	
+	/* HEADER AREA */
+		.head-left{ width:100%; text-align:center; padding :10px; }
+	
+	/* NAVIGATION AREA */
+	#nav{ height:auto; padding:5px 0; transition:none; margin:auto; text-align:center; }
+		.nav ul li{ width: 32%; display: inline-block; vertical-align: top; margin:2px auto; border:1px solid #3c3c3c; }
+		.nav ul li a{ padding:8px 0; line-height:100%; }
+		.nav ul li span{ display: block; }
+		.nav ul ul{ position:static; transition:none; }
+		.nav ul ul li a { text-align:center; width:100%; }
+	
+	/* BANNER AREA */
+		.slider{ position:static; }
+		.rslides{ display:block; }
+		
+		.binfo{ position:static; padding:10px 0; background: RGBA(0, 0, 0, 0.79); }
+		.servicesList{position: initial; padding: 10px 0; background: #363636;}
+		
+	/* MIDDLE AREA	*/
+		.mid-top-area, .mid-bot-area{ padding:10px 0; }
+		.mid-top-area .mbox{ margin:10px 	5px; display:inline-block; vertical-align:top; width:180px; }
+		
+		.mid-bot-area .mbox .p-head:after{ bottom: -40px; }
+		.mid-bot-area .mbox p{ margin-top:35px; }
+		
+	/* MAIN AREA */
+		.content{ padding: 20px 10px 10px; width: 100%; }
+		.sidebar{ width:auto; text-align:center; }
+	
+	/* BOTTOM AREA */
+	#bottom{ padding:10px; }
+		.bbox{ margin:10px 5px; padding-top: 110px; min-height: auto; }
+		.bbox p{ padding:0; margin:10px 0; }
+		.bbox a{ position:static; }
+	
+	/* FOOTER AREA */
+	#footer{ padding:10px 5px 0; min-height:auto; }
+	#footer h3{ margin-bottom: 10px; }
+		.ft-col{ width:100%; vertical-align:top; text-align:center; padding:5px 0; }
+
+		.contact{ text-align:center; }
+		.contact p{ margin:10px; display:inline-block; vertical-align:middle; text-align:left; }
+		
+		.fnav{ width:100%; text-align:center; }
+		.fnav ul{ margin:0; }
+		.fnav ul li{ border:1px solid #fff; margin:2px 0; display:inline-block; vertical-align:top; width:32%; }
+		.fnav ul li a{ padding:4px; }
+		.fnav ul li a:after{ content:''; }
+
+		.social a{ padding-left: 48px; margin:5px; min-width:200px; }
+		.copyright{ position:static; line-height:120%; padding:10px 0; }
+	
+ }
+ 
+@media only screen 
+and (max-width : 600px) {
+	
+	#nav, .content img, .slider{ display: none;  }
+		.nav-toggle-button, .nav li, .nav span{  display: block; }
+		.nav ul li,
+		.fnav ul li, 
+		.mid-top-area .mbox,
+		.mid-top-area .mbox p
+		{ width: 99%; }
+		
+		
+		.binfo{ padding-top:20px; }
+		.binfo h3{ font-size: 26px; }
+		.binfo h3 span{ margin-top: 10px; }
+		.binfo a{ font:20px/38px poppins; margin-top:10px; }
+		
+		.mbox, .bbox{ margin:10px 0 !important; }
+		
+		.mid-top-area .mbox h3 span{ margin:auto; display:inline-block; }
+		
+		.mid-bot-area .mbox .p-head{ margin-top:0; padding: 10px; width: auto; height: auto; border-radius: 0; }
+		.mid-bot-area .mbox .p-head:after{ display:none; }
+		.mid-bot-area .mbox p{ margin-top:10px; }
+		
+		.contact p{ padding:0; background:none!important; text-align:center; }
+			
+		.fnav ul li:after{ border:none; }
+	
+ }
